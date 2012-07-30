@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A190BAD14F4959A007FEAA2 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A190BAC14F4959A007FEAA2 /* CoreAudio.framework */; };
+		0A190BB014F495FE007FEAA2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A190BAF14F495FE007FEAA2 /* QuartzCore.framework */; };
+		0A3824C714F2F708006EC9E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A3824C614F2F708006EC9E0 /* UIKit.framework */; };
+		0A3824C914F2F708006EC9E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A3824C814F2F708006EC9E0 /* Foundation.framework */; };
+		0A3824CB14F2F708006EC9E0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A3824CA14F2F708006EC9E0 /* CoreGraphics.framework */; };
+		0A3824D114F2F708006EC9E0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A3824CF14F2F708006EC9E0 /* InfoPlist.strings */; };
+		0A3824D314F2F708006EC9E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3824D214F2F708006EC9E0 /* main.m */; };
+		0A3824D714F2F708006EC9E0 /* QTKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3824D614F2F708006EC9E0 /* QTKAppDelegate.m */; };
+		0A3824E514F2FAA3006EC9E0 /* SquareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3824E314F2FAA3006EC9E0 /* SquareViewController.m */; };
+		0A3824E614F2FAA3006EC9E0 /* SquareViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A3824E414F2FAA3006EC9E0 /* SquareViewController.xib */; };
+		0A3824EA14F2FB01006EC9E0 /* QTKListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3824E814F2FB01006EC9E0 /* QTKListViewController.m */; };
+		0A3824EB14F2FB01006EC9E0 /* QTKListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A3824E914F2FB01006EC9E0 /* QTKListViewController.xib */; };
+		0A3824EF14F2FD57006EC9E0 /* QTKCanvas.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3824ED14F2FD57006EC9E0 /* QTKCanvas.m */; };
+		0A3824F014F2FD57006EC9E0 /* QTKCanvas.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A3824EE14F2FD57006EC9E0 /* QTKCanvas.xib */; };
+		0A3824F214F34484006EC9E0 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A3824F114F34484006EC9E0 /* AudioToolbox.framework */; };
+		0A56181A14F3CDF200DB5CAD /* dong0.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0A56181714F3CDF200DB5CAD /* dong0.wav */; };
+		0A56181B14F3CDF200DB5CAD /* dong1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0A56181814F3CDF200DB5CAD /* dong1.wav */; };
+		0A56181C14F3CDF200DB5CAD /* dong2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0A56181914F3CDF200DB5CAD /* dong2.wav */; };
+		0A56182114F3D10900DB5CAD /* dong3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0A56181E14F3D10900DB5CAD /* dong3.wav */; };
+		0A56182214F3D10900DB5CAD /* dong4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0A56181F14F3D10900DB5CAD /* dong4.wav */; };
+		0A56182314F3D10900DB5CAD /* dong5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0A56182014F3D10900DB5CAD /* dong5.wav */; };
+		0A56182514F3D4F500DB5CAD /* dong6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0A56182414F3D4F500DB5CAD /* dong6.wav */; };
+		0A6DA6D614F66D1F00F439BC /* QTKActionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6DA6D414F66D1F00F439BC /* QTKActionTableViewController.m */; };
+		0A6DA6D714F66D1F00F439BC /* QTKActionTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A6DA6D514F66D1F00F439BC /* QTKActionTableViewController.xib */; };
+		0A6DA6DB14F6761100F439BC /* QTKSwipeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6DA6DA14F6761100F439BC /* QTKSwipeCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A190BAC14F4959A007FEAA2 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		0A190BAF14F495FE007FEAA2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0A3824C214F2F708006EC9E0 /* coolapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coolapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A3824C614F2F708006EC9E0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0A3824C814F2F708006EC9E0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0A3824CA14F2F708006EC9E0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0A3824CE14F2F708006EC9E0 /* coolapp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "coolapp-Info.plist"; sourceTree = "<group>"; };
+		0A3824D014F2F708006EC9E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0A3824D214F2F708006EC9E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0A3824D414F2F708006EC9E0 /* coolapp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "coolapp-Prefix.pch"; sourceTree = "<group>"; };
+		0A3824D514F2F708006EC9E0 /* QTKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QTKAppDelegate.h; sourceTree = "<group>"; };
+		0A3824D614F2F708006EC9E0 /* QTKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QTKAppDelegate.m; sourceTree = "<group>"; };
+		0A3824E214F2FAA3006EC9E0 /* SquareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SquareViewController.h; sourceTree = "<group>"; };
+		0A3824E314F2FAA3006EC9E0 /* SquareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SquareViewController.m; sourceTree = "<group>"; };
+		0A3824E414F2FAA3006EC9E0 /* SquareViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SquareViewController.xib; sourceTree = "<group>"; };
+		0A3824E714F2FB01006EC9E0 /* QTKListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QTKListViewController.h; sourceTree = "<group>"; };
+		0A3824E814F2FB01006EC9E0 /* QTKListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QTKListViewController.m; sourceTree = "<group>"; };
+		0A3824E914F2FB01006EC9E0 /* QTKListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QTKListViewController.xib; sourceTree = "<group>"; };
+		0A3824EC14F2FD57006EC9E0 /* QTKCanvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QTKCanvas.h; path = ../QTKCanvas.h; sourceTree = "<group>"; };
+		0A3824ED14F2FD57006EC9E0 /* QTKCanvas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QTKCanvas.m; path = ../QTKCanvas.m; sourceTree = "<group>"; };
+		0A3824EE14F2FD57006EC9E0 /* QTKCanvas.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = QTKCanvas.xib; path = ../QTKCanvas.xib; sourceTree = "<group>"; };
+		0A3824F114F34484006EC9E0 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		0A56181714F3CDF200DB5CAD /* dong0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dong0.wav; sourceTree = "<group>"; };
+		0A56181814F3CDF200DB5CAD /* dong1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dong1.wav; sourceTree = "<group>"; };
+		0A56181914F3CDF200DB5CAD /* dong2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dong2.wav; sourceTree = "<group>"; };
+		0A56181E14F3D10900DB5CAD /* dong3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dong3.wav; sourceTree = "<group>"; };
+		0A56181F14F3D10900DB5CAD /* dong4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dong4.wav; sourceTree = "<group>"; };
+		0A56182014F3D10900DB5CAD /* dong5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dong5.wav; sourceTree = "<group>"; };
+		0A56182414F3D4F500DB5CAD /* dong6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dong6.wav; sourceTree = "<group>"; };
+		0A6DA6D314F66D1F00F439BC /* QTKActionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QTKActionTableViewController.h; sourceTree = "<group>"; };
+		0A6DA6D414F66D1F00F439BC /* QTKActionTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QTKActionTableViewController.m; sourceTree = "<group>"; };
+		0A6DA6D514F66D1F00F439BC /* QTKActionTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QTKActionTableViewController.xib; sourceTree = "<group>"; };
+		0A6DA6D914F6761100F439BC /* QTKSwipeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QTKSwipeCell.h; sourceTree = "<group>"; };
+		0A6DA6DA14F6761100F439BC /* QTKSwipeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QTKSwipeCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A3824BF14F2F708006EC9E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A190BB014F495FE007FEAA2 /* QuartzCore.framework in Frameworks */,
+				0A190BAD14F4959A007FEAA2 /* CoreAudio.framework in Frameworks */,
+				0A3824F214F34484006EC9E0 /* AudioToolbox.framework in Frameworks */,
+				0A3824C714F2F708006EC9E0 /* UIKit.framework in Frameworks */,
+				0A3824C914F2F708006EC9E0 /* Foundation.framework in Frameworks */,
+				0A3824CB14F2F708006EC9E0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A3824B714F2F707006EC9E0 = {
+			isa = PBXGroup;
+			children = (
+				0A3824CC14F2F708006EC9E0 /* coolapp */,
+				0A3824C514F2F708006EC9E0 /* Frameworks */,
+				0A3824C314F2F708006EC9E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A3824C314F2F708006EC9E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A3824C214F2F708006EC9E0 /* coolapp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A3824C514F2F708006EC9E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A190BAF14F495FE007FEAA2 /* QuartzCore.framework */,
+				0A190BAC14F4959A007FEAA2 /* CoreAudio.framework */,
+				0A3824F114F34484006EC9E0 /* AudioToolbox.framework */,
+				0A3824C614F2F708006EC9E0 /* UIKit.framework */,
+				0A3824C814F2F708006EC9E0 /* Foundation.framework */,
+				0A3824CA14F2F708006EC9E0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0A3824CC14F2F708006EC9E0 /* coolapp */ = {
+			isa = PBXGroup;
+			children = (
+				0A56181614F3CDF200DB5CAD /* sound */,
+				0A3824EC14F2FD57006EC9E0 /* QTKCanvas.h */,
+				0A3824ED14F2FD57006EC9E0 /* QTKCanvas.m */,
+				0A3824EE14F2FD57006EC9E0 /* QTKCanvas.xib */,
+				0A3824D514F2F708006EC9E0 /* QTKAppDelegate.h */,
+				0A3824D614F2F708006EC9E0 /* QTKAppDelegate.m */,
+				0A3824CD14F2F708006EC9E0 /* Supporting Files */,
+				0A3824E214F2FAA3006EC9E0 /* SquareViewController.h */,
+				0A3824E314F2FAA3006EC9E0 /* SquareViewController.m */,
+				0A3824E414F2FAA3006EC9E0 /* SquareViewController.xib */,
+				0A3824E714F2FB01006EC9E0 /* QTKListViewController.h */,
+				0A3824E814F2FB01006EC9E0 /* QTKListViewController.m */,
+				0A3824E914F2FB01006EC9E0 /* QTKListViewController.xib */,
+				0A6DA6D314F66D1F00F439BC /* QTKActionTableViewController.h */,
+				0A6DA6D414F66D1F00F439BC /* QTKActionTableViewController.m */,
+				0A6DA6D514F66D1F00F439BC /* QTKActionTableViewController.xib */,
+				0A6DA6D914F6761100F439BC /* QTKSwipeCell.h */,
+				0A6DA6DA14F6761100F439BC /* QTKSwipeCell.m */,
+			);
+			path = coolapp;
+			sourceTree = "<group>";
+		};
+		0A3824CD14F2F708006EC9E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A3824CE14F2F708006EC9E0 /* coolapp-Info.plist */,
+				0A3824CF14F2F708006EC9E0 /* InfoPlist.strings */,
+				0A3824D214F2F708006EC9E0 /* main.m */,
+				0A3824D414F2F708006EC9E0 /* coolapp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0A56181614F3CDF200DB5CAD /* sound */ = {
+			isa = PBXGroup;
+			children = (
+				0A56182414F3D4F500DB5CAD /* dong6.wav */,
+				0A56181E14F3D10900DB5CAD /* dong3.wav */,
+				0A56181F14F3D10900DB5CAD /* dong4.wav */,
+				0A56182014F3D10900DB5CAD /* dong5.wav */,
+				0A56181714F3CDF200DB5CAD /* dong0.wav */,
+				0A56181814F3CDF200DB5CAD /* dong1.wav */,
+				0A56181914F3CDF200DB5CAD /* dong2.wav */,
+			);
+			path = sound;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A3824C114F2F708006EC9E0 /* coolapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A3824DA14F2F708006EC9E0 /* Build configuration list for PBXNativeTarget "coolapp" */;
+			buildPhases = (
+				0A3824BE14F2F708006EC9E0 /* Sources */,
+				0A3824BF14F2F708006EC9E0 /* Frameworks */,
+				0A3824C014F2F708006EC9E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = coolapp;
+			productName = coolapp;
+			productReference = 0A3824C214F2F708006EC9E0 /* coolapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A3824B914F2F707006EC9E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Q Technology Company";
+			};
+			buildConfigurationList = 0A3824BC14F2F707006EC9E0 /* Build configuration list for PBXProject "coolapp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0A3824B714F2F707006EC9E0;
+			productRefGroup = 0A3824C314F2F708006EC9E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A3824C114F2F708006EC9E0 /* coolapp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A3824C014F2F708006EC9E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A3824D114F2F708006EC9E0 /* InfoPlist.strings in Resources */,
+				0A3824E614F2FAA3006EC9E0 /* SquareViewController.xib in Resources */,
+				0A3824EB14F2FB01006EC9E0 /* QTKListViewController.xib in Resources */,
+				0A3824F014F2FD57006EC9E0 /* QTKCanvas.xib in Resources */,
+				0A56181A14F3CDF200DB5CAD /* dong0.wav in Resources */,
+				0A56181B14F3CDF200DB5CAD /* dong1.wav in Resources */,
+				0A56181C14F3CDF200DB5CAD /* dong2.wav in Resources */,
+				0A56182114F3D10900DB5CAD /* dong3.wav in Resources */,
+				0A56182214F3D10900DB5CAD /* dong4.wav in Resources */,
+				0A56182314F3D10900DB5CAD /* dong5.wav in Resources */,
+				0A56182514F3D4F500DB5CAD /* dong6.wav in Resources */,
+				0A6DA6D714F66D1F00F439BC /* QTKActionTableViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A3824BE14F2F708006EC9E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A3824D314F2F708006EC9E0 /* main.m in Sources */,
+				0A3824D714F2F708006EC9E0 /* QTKAppDelegate.m in Sources */,
+				0A3824E514F2FAA3006EC9E0 /* SquareViewController.m in Sources */,
+				0A3824EA14F2FB01006EC9E0 /* QTKListViewController.m in Sources */,
+				0A3824EF14F2FD57006EC9E0 /* QTKCanvas.m in Sources */,
+				0A6DA6D614F66D1F00F439BC /* QTKActionTableViewController.m in Sources */,
+				0A6DA6DB14F6761100F439BC /* QTKSwipeCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0A3824CF14F2F708006EC9E0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A3824D014F2F708006EC9E0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A3824D814F2F708006EC9E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		0A3824D914F2F708006EC9E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A3824DB14F2F708006EC9E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "coolapp/coolapp-Prefix.pch";
+				INFOPLIST_FILE = "coolapp/coolapp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0A3824DC14F2F708006EC9E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "coolapp/coolapp-Prefix.pch";
+				INFOPLIST_FILE = "coolapp/coolapp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A3824BC14F2F707006EC9E0 /* Build configuration list for PBXProject "coolapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A3824D814F2F708006EC9E0 /* Debug */,
+				0A3824D914F2F708006EC9E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A3824DA14F2F708006EC9E0 /* Build configuration list for PBXNativeTarget "coolapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A3824DB14F2F708006EC9E0 /* Debug */,
+				0A3824DC14F2F708006EC9E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A3824B914F2F707006EC9E0 /* Project object */;
+}
